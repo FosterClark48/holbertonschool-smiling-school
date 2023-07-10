@@ -48,6 +48,14 @@ body {
     font-size: 7.5rem;
 }
 
+.coiny {
+    font-family: 'Coiny', cursive;
+}
+
+.coiny-size {
+    font-size: 2rem;
+}
+
 /* #endregion */
 
 
@@ -65,6 +73,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.courses {
+    background-image: url('images/pic_3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 /* #endregion */
