@@ -132,18 +132,6 @@ bg-light-purple {
     background-color: var(--color-light-purple) !important;
 }
 
-.search {
-    color: var(--color-white);
-    font-size: 1.75rem;
-    opacity: .8;
-}
-
-::placeholder {
-    color: lightgray;
-    font-size: 1.75rem;
-    opacity: .6;
-}
-
 .play {
     height: 125px;
     width: 125px;
@@ -152,6 +140,59 @@ bg-light-purple {
 .card-img-overlay {
     height: 5rem;
     width: 5rem;
+}
+
+/* #endregion */
+
+
+/* #region SEARCH */
+
+.search {
+    color: var(--color-light-purple);
+    font-size: 1.75rem;
+    opacity: .8;
+}
+
+::placeholder {
+    color: lightgray;
+    font-size: 1.75rem;
+    opacity: .5 !important;
+}
+
+.search:before {
+    font-family: 'holberton_school-icon';
+    content: "\e912";
+    color: var(--color-white);
+}
+
+.search-bar {
+    background-color: var(--color-light-purple);
+}
+
+.border-tlr {
+    border-top-left-radius: .25rem;
+}
+
+.search-control {
+    border-top-right-radius: .5;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px #d296ff;
+}
+
+.search-control:hover {
+    background-color: var(--color-light-purple);
+}
+
+.search-control:active,
+.search-control:focus {
+    background-color: var(--color-light-purple) !important;
+}
+
+.search-item:hover {
+    color: var(--color-purple) !important;
+    background-color: var(--color-white);
 }
 
 /* #endregion */
