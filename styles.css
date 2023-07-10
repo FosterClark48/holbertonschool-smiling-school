@@ -162,4 +162,13 @@ bg-light-purple {
 	color: var(--color-white);
 }
 
+.small-icon {
+    font-size: 2rem;
+}
+
+.holberton_school-icon-check {
+    padding-top: 1.28rem;
+    font-size: 1.752rem;
+}
+
 /* #endregion */
