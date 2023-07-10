@@ -1,0 +1,96 @@
+@import url(holberton_school-icon/style.css);
+@import url(holberton_school-icon/style.scss);
+
+/* #region ROOT */
+
+:root {
+    --color-white: #ffffff;
+    --color-dark: #252525;
+    --color-purple: #c271ff;
+    --color-light-purple: #d6a7f9;
+    --color-grey: #979797;
+    --font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* #endregion */
+
+
+/* #region GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.off-screen {
+    left: -100vw;
+    position: absolute;
+}
+
+/* #endregion */
+
+
+/* #region TEXT */
+
+.text-primary {
+    color: var(--color-purple) !important;
+}
+
+.text-secondary {
+    color: var(--color-dark) !important;
+}
+
+.getschooledbitch {
+    font-size: 7.5rem;
+}
+
+/* #endregion */
+
+
+/* #region BACKGROUND */
+
+.homepage {
+    background-image: url('images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* #endregion */
+
+
+/* #region BUTTON */
+
+.btn, .btn:hover, .btn:focus {
+    background-color: var(--color-purple);
+    border-color: var(--color-purple);
+}
+
+.btn:hover, .btn-focus {
+    opacity: 0.9;
+}
+
+.btn-shadow {
+    box-shadow: 0 0 10px 5px rgba(56, 56, 56, 0.813);
+}
+
+/* #endregion */
+
+
+/* #region NAV LINX */
+
+li a:hover, li a:focus {
+    color: var(--color-purple) !important;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    font-size: 2.25rem;
+    top: 3rem;
+}
+
+/* #endregion */
