@@ -94,3 +94,42 @@ li a:hover, li a:focus {
 }
 
 /* #endregion */
+
+
+/* #region CAROUSEL */
+
+.bg-purple {
+    background-color: var(--color-purple) !important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark) !important;
+}
+
+bg-light-purple {
+    background-color: var(--color-light-purple) !important;
+}
+
+.search {
+    color: var(--color-white);
+    font-size: 1.75rem;
+    opacity: .8;
+}
+
+::placeholder {
+    color: lightgray;
+    font-size: 1.75rem;
+    opacity: .6;
+}
+
+.play {
+    height: 125px;
+    width: 125px;
+}
+
+.card-img-overlay {
+    height: 5rem;
+    width: 5rem;
+}
+
+/* #endregion */
