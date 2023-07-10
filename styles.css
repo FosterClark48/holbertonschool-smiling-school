@@ -5,7 +5,7 @@
 
 :root {
     --color-white: #ffffff;
-    --color-dark: #252525;
+    --color-dark: #071629;
     --color-purple: #c271ff;
     --color-light-purple: #d6a7f9;
     --color-grey: #979797;
@@ -130,6 +130,29 @@ bg-light-purple {
 .card-img-overlay {
     height: 5rem;
     width: 5rem;
+}
+
+/* #endregion */
+
+
+/* #region FOOTER */
+
+.fb-icon:before {
+    font-family: 'holberton_school-icon';
+    content: "\e908";
+    color: var(--color-white);
+}
+
+.twitter-icon:before {
+	font-family: 'holberton_school-icon';
+	content: "\e90f";
+	color: var(--color-white);
+}
+
+.ig-icon:before {
+	font-family: 'holberton_school-icon';
+	content: "\e90a";
+	color: var(--color-white);
 }
 
 /* #endregion */
